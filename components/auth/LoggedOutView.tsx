@@ -40,6 +40,7 @@ export default function LoggedOutView({
           value={password}
           onChangeText={setPassword}
           secureTextEntry
+          onSubmitEditing={onLogin}
         />
 
         <ErrorMessage message={errorMessage} />
